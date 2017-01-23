@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.17
+ENV VERSION=0.0.18
 
 RUN gem install knjappserver --version ${VERSION} --no-format-exec
 
